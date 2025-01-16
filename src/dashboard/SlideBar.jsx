@@ -1,9 +1,12 @@
+import React from 'react';
 import { Sidebar } from "flowbite-react";
 import { BiBuoy } from "react-icons/bi";
 import { HiArrowSmRight, HiChartPie, HiInbox, HiOutlineCloudUpload, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
 import urlImage from "../assets/profile.jpg"
 import { useContext } from "react";
 import  { AuthContext } from "../contects/AuthProvider";
+
+
 //displayName  photoURL
 
 const SlideBar = () => {
