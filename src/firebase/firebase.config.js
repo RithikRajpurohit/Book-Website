@@ -12,8 +12,8 @@ const firebaseConfig = {
   projectId: "mern-book-inventory-7acb7",
   storageBucket: "mern-book-inventory-7acb7.firebasestorage.app",
   messagingSenderId: "49022216353",
-  appId: "1:49022216353:web:dd965b01b553adb4b328e0",
-  measurementId: "G-QH0TEQDEW5"
+  appId: "1:49022216353:web:1bf0f8d506ef52bab328e0",
+  measurementId: "G-955RJRZ5EN"
 };
 
 // Initialize Firebase
