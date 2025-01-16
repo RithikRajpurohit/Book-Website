@@ -3,7 +3,7 @@ import React from "react";
 
 import App from "../App";
 import Home from "../Home/Home";
-import Shop from "../shop/shop";
+import Shop from "../Shop/Shop"
 import About from "../Components/About";
 import Blog from "../Components/Blog";
 import SingleBook from "../Shop/SingleBook";
