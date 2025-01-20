@@ -6,14 +6,14 @@ const MangaBook = () => {
   const [allBooks, setAllBooks] = useState([]);
 
   useEffect(() => {
-    fetch("https://book-server-ten-xi.vercel.app/all-books")
+    fetch("https://book-server-jfl6.onrender.com/all-books")
       .then((res) => res.json())
       .then((data) => setAllBooks(data));
   }, []);
 
   const handleDelete = (id) => {
     console.log(id);
-    fetch(`https://book-server-ten-xi.vercel.app/book/${id}`, {
+    fetch(`https://book-server-jfl6.onrender.com/book/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

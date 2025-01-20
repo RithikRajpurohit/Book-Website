@@ -40,7 +40,7 @@ const EditBook = () => {
        bookTitle,authorName,imageURL,category,bookDescription,bookPDFURL
      }
     
-      fetch(`https://book-server-ten-xi.vercel.app/book/${id}`,
+      fetch(`https://book-server-jfl6.onrender.com/book/${id}`,
 
         {
           method:"PATCH",

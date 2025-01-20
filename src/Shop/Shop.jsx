@@ -6,7 +6,7 @@ const Shop = () => {
 
   useEffect(()=>
     {
-      fetch("https://book-server-ten-xi.vercel.app/all-books").then(res=>res.json()).then(data=> setBooks(data));
+      fetch("https://book-server-jfl6.onrender.com/all-books").then(res=>res.json()).then(data=> setBooks(data));
     },[])
   return (
     <div className='mt-28 px-4 lg:px-24 '>

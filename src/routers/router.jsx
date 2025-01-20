@@ -41,7 +41,7 @@ const router = createBrowserRouter([
             {
                 path: "/book/:id",
                 element: <SingleBook />,
-                loader: ({ params }) => fetch(`https://book-server-ten-xi.vercel.app/book/${params.id}`)
+                loader: ({ params }) => fetch(`https://book-server-jfl6.onrender.com/book/${params.id}`)
             }
         ]
     },
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
             {
                 path: "edit-books/:id",
                 element: <EditBook />,
-                loader: ({ params }) => fetch(`https://book-server-ten-xi.vercel.app/book/${params.id}`)
+                loader: ({ params }) => fetch(`https://book-server-jfl6.onrender.com/book/${params.id}`)
             }
         ]
     },

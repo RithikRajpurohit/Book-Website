@@ -36,7 +36,7 @@ const UploadBook = () => {
       bookTitle,authorName,imageURL,category,bookDescription,bookPDFURL
     }
       console.log(bookObj);
-      fetch("https://book-server-ten-xi.vercel.app/upload-book",
+      fetch("https://book-server-jfl6.onrender.com/upload-book",
         {
           method:"POST",
           headers:{
